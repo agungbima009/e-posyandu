@@ -49,7 +49,7 @@
                             <input class="input-ds" type="password" name="password" placeholder="Passowrd..." />
                         </div>
                     </div>
-                    <div class="box-pengaturan p-kanan">
+                    <div class="box-pengaturan p-kanan" style="background-color: #fff;">
                         <button class="button-bg" type="button">Simpan</button>
                     </div>
                     

@@ -1,0 +1,186 @@
+/* =========== Google Fonts ============ */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+/* =============== Globals ============== */
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+.tablesubmain{
+  padding: 20px;
+  background-color: #ffffff;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+
+}
+
+.tb-container {
+  /* padding-top: 20px; */
+  max-height: 330px; /* Tentukan ketinggian maksimum konten yang dapat di-scroll */
+  overflow: auto; /* Aktifkan overflow jika kontennya melebihi ketinggian maksimum */
+  border-radius: 12px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.16);
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #24297a;
+}
+
+.sticky-header {
+  background-color: #f5f5f5; /* Warna latar belakang untuk baris judul yang tetap */
+  position: sticky;
+  top: 0; /* Tetapkan baris judul di bagian atas */
+  border-radius: 12px 12px 0 0;
+}
+
+table{
+ /* position: absolute; */
+ /* z-index: 2; */
+ /* left: 20; */
+ /* top: 10%; */
+ /* transform: translate(-50%,-50%); */
+ width: 100%; 
+ border-collapse: collapse;
+ /* border-spacing: 0; */
+ /* box-shadow: 0 2px 15px rgba(64,64,64,.7); */
+ border-radius: 12px 12px 0 0;
+ /* overflow: hidden; */
+
+}
+th{
+  padding: 7px 10px;
+  text-align: center;
+}
+td{
+ padding: 5px 10px;
+ text-align: center;
+ 
+
+}
+th{
+ background: linear-gradient(#a1acdf, #2a66bf);
+ color: #ffffff;
+ font-family: "Ubuntu", sans-serif;
+ font-weight: bold;
+ /* text-transform: uppercase; */
+
+}
+tr{
+ width: 100%;
+ background-color: #fafafa;
+ font-family: 'Montserrat', sans-serif;
+}
+tr:nth-child(even){
+ background-color: #eeeeee;
+}
+
+.btn-container{
+  /* background-color: #24297a; */
+  display: flex; /* Mengaktifkan flexbox */
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.button-bg{
+  display: flex; /* Mengaktifkan flexbox */
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-right: 14px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.16);
+}
+
+.button-bg img{
+  width: 20px;
+  height: 20px;
+}
+.button-bg-1{
+  background-color: #1795ce;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.16);
+}
+
+.button-bg-1:hover{
+  background-color: #000046a8;
+}
+.button-bg-green{
+  background-color: #0fe058;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.16);
+}
+
+.button-bg-green:hover{
+  background-color: #079838db;
+}
+.p-kanan-1{
+  position: absolute;
+  right: 40px;
+  padding-top: 20px;
+}
+
+.kanan{
+  display: flex; /* Mengaktifkan flexbox */
+  justify-content: space-between;
+}
+
+.btn-action{
+  display: flex; 
+  justify-content: space-between;
+  /* gap: 3px; */
+}
+.btn-action>a{
+  background-color: #6a756d36;
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  padding: 5px;
+}
+/* .btn-action:hover a{
+background-color: #1795ce;
+} */
+.lg-action-edit img,
+.lg-action-hapus img{
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
+
+.efk-edit:hover{
+  background-color: #0fe05888;
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+.efk-hapus:hover{
+  background-color: #ce2c17;
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+
+.btnplus{
+padding-top: 2px;
+}

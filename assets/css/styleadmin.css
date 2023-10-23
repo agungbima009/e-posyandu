@@ -670,7 +670,7 @@ body {
 }
 
 .submain{
-  background-color: #7d7d9f;
+  /* background-color: #7d7d9f; */
   width: 100%;
   height: 100%;
 }
@@ -682,4 +682,120 @@ body {
 }
 .form1text{
   padding-top: 240px;
+}
+
+/* dashoard */
+.Dashboard{
+  display: none;
+}
+
+
+/* chat */
+.framesubmain{
+  padding: 20px;
+  /* background-color: #7d7d9f; */
+  height: auto;
+  width: auto;
+}
+.boxsubmain{
+  padding: 20px;
+  background-color: #ffffff;
+  height: 650px;
+  border-radius: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+
+}
+
+.box-pengaturan{
+  background-color: #eeebeb83;
+  height: 50px;
+  border-radius: 20px;
+  display: flex; /* Mengaktifkan flexbox */
+  justify-content: space-between; 
+  margin-top: 10px;
+}
+.box-pengaturan-profil{
+  background-color: #eeebeb83;
+  height: 330px;
+  border-radius: 20px;
+  /* display: flex; Mengaktifkan flexbox */
+  /* justify-content: space-between;  */
+  margin-top: 10px;
+}
+
+.judul{
+  /* padding-bottom: 10px; */
+  color: #2a2185;
+}
+
+.text-p{
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #2d2da1;
+}
+
+.i-p{
+  padding-top: 5px;
+  padding-left: 20px;
+  font-size: 10px;
+}
+
+.input-bg{
+  padding-top: 10px;
+  padding-right: 20px;
+}
+.input-ds{
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+.input-ds:focus-within{
+  border-color: #1795ce;
+}
+
+.profil img{
+  padding: 5px;
+  background-color: #1795ce;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.profil:hover img{
+  background-color: #000046a8;
+}
+
+.bg-profil{
+ text-align: center;
+ padding-top: 20px;
+ cursor: pointer;
+}
+
+.nameprofil{
+  padding-top: 20px;
+}
+
+.button-bg{
+  background-color: #1795ce;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-bg:hover{
+  background-color: #000046a8;
+}
+
+.p-kanan{
+  position: absolute;
+  right: 40px;
 }

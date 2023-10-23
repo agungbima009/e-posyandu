@@ -28,19 +28,16 @@ toggle2.onclick = function () {
   submenu.classList.toggle2("active");
 };
 
-// function myFunction() {
-//   document.getElementById("myDropdown").classList.toggle("show");
-// }
-
-// window.onclick = function(event) {
-//   if (!event.target.matches('.submenu')) {
-//     var dropdowns = document.getElementsByClassName("sub-menu");
-//     var i;
-//     for (i = 0; i < dropdowns.length; i++) {
-//       var openDropdown = dropdowns[i];
-//       if (openDropdown.classList.contains('show')) {
-//         openDropdown.classList.remove('show');
-//       }
-//     }
-//   }
-// }
+// aksi tombol pengaturan 
+function toggleSettings() {
+  var dashboard = document.getElementById('dashboard');
+  var settings = document.getElementById('settings');
+  
+  if (dashboard.style.display !== 'none') {
+      dashboard.style.display = 'none';
+      settings.style.display = 'block';
+  } else {
+      dashboard.style.display = 'block';
+      settings.style.display = 'none';
+  }
+}

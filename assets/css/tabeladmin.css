@@ -135,6 +135,21 @@ tr:nth-child(even){
 .button-bg-green:hover{
   background-color: #079838db;
 }
+.button-bg-green-1{
+  background-color: #24297a;
+  border: none;
+  border-radius: 20px;
+  width: 60px;
+  height: 20px;
+  font-size: 10px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.16);
+}
+
+.button-bg-green-1:hover{
+  background-color: #1795ce;
+}
 .p-kanan-1{
   position: absolute;
   right: 40px;
@@ -183,4 +198,101 @@ background-color: #1795ce;
 
 .btnplus{
 padding-top: 2px;
+}
+
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:#edeef0;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.close:hover{
+  color: #ce2c17;
+}
+
+.bg-input{
+  /* background-color: #1495d1; */
+  width: 500px;
+  height: 500px;
+}
+
+.input-ds-1{
+  height: 30px;
+  border-radius: 10px;
+  /* border-color:1px solid #eeeeee; */
+  border: none;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.165);
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  width: 100%;
+}
+
+.jd-input{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.box-input{
+  padding:0 30px 10px 30px;
+}
+.box-input>p{
+padding-bottom: 5px;
+}
+
+.box-input-vertical{
+  display: flex; /* Mengaktifkan flexbox */
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.box-input-vertical-1{
+  display: flex; /* Mengaktifkan flexbox */
+  justify-content: left;
+  padding-top: 10px;
+  gap: 10px;
+}
+
+.box-input-vertical-1>button{
+  padding-bottom: 10px;
+}
+
+.button-bg-1{
+  background-color: #17ce51;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-bg-1:hover{
+  background-color: #00461aba;
 }

@@ -37,3 +37,11 @@ function toggleContent(menuId) {
   var selectedContent = document.getElementById(menuId);
   selectedContent.style.display = 'block';
 }
+
+document.getElementById('openPopup').addEventListener('click', function() {
+  document.getElementById('popup').style.display = 'block';
+});
+
+document.getElementById('closePopup').addEventListener('click', function() {
+  document.getElementById('popup').style.display = 'none';
+});

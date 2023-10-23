@@ -28,7 +28,7 @@ toggle2.onclick = function () {
   submenu.classList.toggle2("active");
 };
 
-// aksi tombol menu 
+// aksi tombol menu admin
 function toggleContent(menuId) {
   var contentDivs = document.querySelectorAll('.content');
   for (var i = 0; i < contentDivs.length; i++) {

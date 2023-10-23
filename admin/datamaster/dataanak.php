@@ -1,253 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
+<link rel="stylesheet" href="/assets/css/tabeladmin.css">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-posyandu/admin</title>
-    <!-- ======= Styles ====== -->
-    <link rel="stylesheet" href="/assets/css/styleadmin.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-</head>
+<div class="framesubmain">
 
-<body>
-    <!-- =============== Navigation ================ -->
-    <div class="container">
-        <div class="navigation">
-            <ul>
-                <li class="logo">
-                    <a href="#">
-                        <span class="icon">
-                            <ion-icon name="logo-apple"></ion-icon>
-                        </span>
-                        <span class="title"><h3>E-Posyandu</h3></span>
-                    </a>
-                </li>
-                
-
-                <li class="das">
-                    <a href="admin.html">
-                        <span class="icon">
-                            <ion-icon name="home-outline"></ion-icon>
-                        </span>
-                        <span class="title">Dashboard</span>
-                    </a>
-                </li>
-
-                <li class="submenu">
-                    <a href="#">
-                        <span class="icon toggle2">
-                            <ion-icon name="folder-outline"></ion-icon>
-                            <!-- <ion-icon name="arrow-dropdown-circle"></ion-icon> -->
-                        </span>
-                        <span class="title"><h4>Data master</h4></span>
-                        <span class="down">
-                            <ion-icon name="arrow-dropdown-circle"></ion-icon>
-                        </span>
-                    </a>
-                    <ul id="myDropdown" class="sub-menu">
-                        <li class="menuitem">
-                          <a class="item" href="#">
-                            <!-- <span class="icon"></span> -->
-                            <span class="text">Data anak</span>
-                          </a>
-                        </li>
-                        <li class="menuitem">
-                          <a class="item" href="#">
-                            <!-- <span class="icon"></span> -->
-                            <span class="text">Data Ibu</span>
-                          </a>
-                        </li>
-                        <li class="menuitem">
-                          <a class="item" href="#">
-                            <!-- <span class="icon"></span> -->
-                            <span class="text">Data penimbangan</span>
-                          </a>
-                        </li>
-                        <li class="menuitem">
-                          <a class="item" href="#">
-                            <!-- <span class="icon"></span> -->
-                            <span class="text">Data Imunisasi</span>
-                          </a>
-                        </li>
-                        <li class="menuitem">
-                          <a class="item" href="#">
-                            <!-- <span class="icon"></span> -->
-                            <span class="text">Data ibu hamil</span>
-                          </a>
-                        </li>
-                        <li class="menuitem">
-                          <a class="item" href="#">
-                            <!-- <span class="icon"></span> -->
-                            <span class="text">Data ibu melahirkan</span>
-                          </a>
-                        </li>
-                        <li class="menuitem">
-                          <a class="item" href="#">
-                            <!-- <span class="icon"></span> -->
-                            <span class="text">Data vaksin</span>
-                          </a>
-                        </li>
-                        <li class="menuitem">
-                          <a class="item" href="#">
-                            <!-- <span class="icon"></span> -->
-                            <span class="text">Data pos posyandu</span>
-                          </a>
-                        </li>
-                        <li class="menuitem">
-                          <a class="item" href="#">
-                            <!-- <span class="icon"></span> -->
-                            <span class="text">Data bidan</span>
-                          </a>
-                        </li>
-                        <li class="menuitem">
-                          <a class="item" href="#">
-                            <!-- <span class="icon"></span> -->
-                            <span class="text">Data kader</span>
-                          </a>
-                        </li>
-                        <li class="menuitem">
-                          <a class="item" href="#">
-                            <!-- <span class="icon"></span> -->
-                            <span class="text">Data user</span>
-                          </a>
-                        </li>
-                      </ul>
-
-                </li>
-
-                <li class="massage">
-                    <a href="#">
-                        <span class="icon">
-                            <ion-icon name="chatbubbles-outline"></ion-icon>
-                        </span>
-                        <span class="title">Messages</span>
-                    </a>
-                </li>
-                <li class="setting">
-                    <a href="#">
-                        <span class="icon">
-                            <ion-icon name="settings-outline"></ion-icon>
-                        </span>
-                        <span class="title">Settings</span>
-                    </a>
-                </li>
-                <li class="logout">
-                    <a href="#">
-                        <span class="icon">
-                            <ion-icon name="log-out-outline"></ion-icon>
-                        </span>
-                        <span class="title">Log Out</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-
-        
-
-        <!-- ========================= Main ==================== -->
-        <div class="main">
-            <div class="topbar">
-                <div class="topbar2">
-                <div class="toggle">
-                    <ion-icon name="menu-outline"></ion-icon>
-                </div>
-
-                <!-- <div class="search">
+    <div class="tablesubmain">
+        <h3>Data Anak</h3>
+        <div class="btn-container">
+            <button class="button-bg" type="button">
+               <img src="/assets/imgs/plus.png" alt="">
+                <h6 class="btnplus" style="font-size: 9px;">Tambah data</h6>
+            </button>
+            <div class="kanan">
+                <div class="search">
                     <label>
-                        <input type="text" placeholder="Search here">
+                        <input style="color: #C2C4C6;" type="text" placeholder="Pencarian...">
                         <ion-icon name="search-outline"></ion-icon>
                     </label>
-                </div> -->
-
-               
-
-                <div class="wrapper">
-                    <div class="ntf">
-                        <div class="angk-notif">
-                            <h5 class="angk">10</h5>
-                        </div>
-                    </div>
-                    <a class="notif-cht" href="#"><ion-icon name="chatbubbles-outline"></ion-icon></a>
-                    <p class="admjd">Admin</p>
-                    <div class="wrapperuser">
-                        <p class="nameuser">username</p>
-                        <div class="user">
-                            <img src="/assets/imgs/customer01.jpg" alt="">
-                        </div>
-                    </div>
                 </div>
-                </div>
+
+                <button class="button-bg-1" type="button">
+                    <!-- <ion-icon name="search-outline"></ion-icon> -->
+                    <h6>Filter tanggal</h6>
+                </button>
             </div>
-
-            <div class="submain">
-            
-                <div class="framesubmain">
-                    <div class="boxsubmain">
-                        <h1 class="judul">Pengaturan</h1>
-                        <div class="box-pengaturan-profil">
-                            <div>
-                            <h4 class="text-p">Foto profil</h4>
-                            </div>
-                            <div class="bg-profil">
-                            <div class="profil">
-                                <img src="/assets/imgs/customer01.jpg" alt="">
-                            </div>
-                            <h4 class="nameprofil">Username is blablabla</h4>
-                            <p style="font-size: 10px;">username@gmail.com</p>
-                            </div>
-                        </div>
-                    <div class="box-pengaturan">
-                        <div>
-                        <h4 class="text-p">Username</h4>
-                        <p class="i-p">Anda bisa mengganti username disini</p>
-                        </div>
-                        <div class="input-bg">
-                            <input class="input-ds" type="text" name="username" placeholder="username..." />
-                        </div>
-                    </div>
-                    <div class="box-pengaturan">
-                        <div>
-                        <h4 class="text-p">Email</h4>
-                        <p class="i-p">Anda bisa mengganti username disini</p>
-                        </div>
-                        <div class="input-bg">
-                            <input class="input-ds" type="text" name="Email" placeholder="...@gmail.com" />
-                        </div>
-                    </div>
-                    <div class="box-pengaturan">
-                        <div>
-                        <h4 class="text-p">Password</h4>
-                        <p class="i-p">Anda bisa mengganti username disini</p>
-                        </div>
-                        <div class="input-bg">
-                            <input class="input-ds" type="password" name="password" placeholder="Passowrd..." />
-                        </div>
-                    </div>
-                    <div class="box-pengaturan p-kanan">
-                        <button class="button-bg" type="button">Simpan</button>
-                    </div>
-                    
-                    </div>
-                </div>
-
-            </div>
-
         </div>
+        <div class="tb-container">
+            <table>
+                <!-- judul kolom -->
+                <tr class="sticky-header">
+                    <th>No</th>
+                    <th>NIK</th>
+                    <th>Nama anak</th>
+                    <th>Tanggal lahir</th>
+                    <th>Usia</th>
+                    <th>Jenis kelamin</th>
+                    <th>Nama Ayah</th>
+                    <th>Nama Ibu</th>
+                    <th>Pos</th>
+                    <th>Aksi</th>
+                </tr>
+                <!-- isi kolom -->
+                <?php
+                // for ($i = 1; $i <= 100; $i++) {
+                //     echo '<tr>';
+                //     for ($j = 1; $j <= 10; $j++) {
+                //         echo "<td>$i</td>";
+                //     }
+                //     echo '</tr>';
+                // }
+                for ($i = 1; $i <= 100; $i++) {
+                    echo '<tr>';
+                    for ($j = 1; $j <= 10; $j++) {
+                        if ($j === 10) {
+                            echo '<td>
+                                <span class="btn-action">
+                                    <a href="#" class="efk-edit">
+                                    <div class="lg-action-edit">
+                <img src="/assets/imgs/edit.png" alt="edit">
+                </div>
+                                    </a>
+                                    <a href="#" class="efk-hapus">
+                                    <div class="lg-action-hapus">
+                                    <img src="/assets/imgs/hapus.png" alt="hapus">
+                                    </div>
+                                    </a>
+                                </span>
+                            </td>';
+                        } else {
+                            echo "<td>$i</td>";
+                        }
+                    }
+                    echo '</tr>';
+                }
+                
+                ?>
+                <!-- <td>
+                    <span class="btn-action">
+                        <a href="#">edit</a>
+                        <a href="#">hapus</a>
+                    </span>
+                </td> -->
+                <!-- <div class="lg-action">
+                <img src="/assets/imgs/edit.png" alt="">
+                </div> -->
+                <!-- <img src="/assets/imgs/hapus.png" alt=""> -->
+            </table>
+        </div>
+        <div class=" p-kanan-1">
+            <button class="button-bg-green" type="button">Cetak</button>
+        </div>
+
+
+
     </div>
 
-
-
-
-
-    <!-- =========== Scripts =========  -->
-    <script src="/assets/js/main.js"></script>
-
-    <!-- ====== ionicons ======= -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
-
-</html>
+</div>

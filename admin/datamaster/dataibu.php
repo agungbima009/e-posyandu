@@ -4,7 +4,7 @@
 <div class="framesubmain">
 
     <div class="tablesubmain">
-        <h3>Data Anak</h3>
+        <h3>Data Ibu</h3>
         <div class="btn-container">
             <button class="button-bg" type="button" id="openPopup">
                 <img src="/assets/imgs/plus.png" alt="">
@@ -30,28 +30,19 @@
                 <tr class="sticky-header">
                     <th>No</th>
                     <th>NIK</th>
-                    <th>Nama anak</th>
-                    <th>Tanggal lahir</th>
-                    <th>Usia</th>
-                    <th>Jenis kelamin</th>
-                    <th>Nama Ayah</th>
                     <th>Nama Ibu</th>
+                    <th>Nama Suami</th>
+                    <th>RT/RW</th>
+                    <th>Nomor telepon</th>
                     <th>Pos</th>
                     <th>Aksi</th>
                 </tr>
                 <!-- isi kolom -->
                 <?php
-                // for ($i = 1; $i <= 100; $i++) {
-                //     echo '<tr>';
-                //     for ($j = 1; $j <= 10; $j++) {
-                //         echo "<td>$i</td>";
-                //     }
-                //     echo '</tr>';
-                // }
                 for ($i = 1; $i <= 100; $i++) {
                     echo '<tr>';
-                    for ($j = 1; $j <= 10; $j++) {
-                        if ($j === 10) {
+                    for ($j = 1; $j <= 8; $j++) {
+                        if ($j === 8) {
                             echo '<td>
                                 <span class="btn-action">
                                     <a href="#" class="efk-edit">
@@ -74,16 +65,7 @@
                 }
 
                 ?>
-                <!-- <td>
-                    <span class="btn-action">
-                        <a href="#">edit</a>
-                        <a href="#">hapus</a>
-                    </span>
-                </td> -->
-                <!-- <div class="lg-action">
-                <img src="/assets/imgs/edit.png" alt="">
-                </div> -->
-                <!-- <img src="/assets/imgs/hapus.png" alt=""> -->
+
             </table>
         </div>
         <div class=" p-kanan-1">

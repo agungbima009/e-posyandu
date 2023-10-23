@@ -28,7 +28,7 @@
                 </li>
 
                 <li class="das">
-                    <a href="admin.php">
+                    <a href="#" onclick="toggleContent('dashboardContent')">
                         <span class="icon">
                             <ion-icon name="home-outline"></ion-icon>
                         </span>
@@ -51,7 +51,7 @@
                     </a>
                     <ul id="myDropdown" class="sub-menu">
                         <li class="menuitem">
-                            <a class="item" href="#">
+                            <a class="item" href="#" onclick="toggleContent('dataanakContent')">
                                 <!-- <span class="icon"></span> -->
                                 <span class="text">Data anak</span>
                             </a>
@@ -131,7 +131,7 @@
 
 
                 <li class="setting">
-                    <a href="#" onclick="toggleSettings()">
+                    <a href="#" onclick="toggleContent('settingsContent')">
                         <span class="icon">
                             <ion-icon name="settings-outline"></ion-icon>
                         </span>
@@ -193,11 +193,14 @@
 
 
                 <!-- ================tampilan sub main=================== -->
-                <div id="dashboard">
-                    <?php include 'dashboard.php'; ?>
+                <div id="dashboardContent" class="content">
+                    <?php include 'form/dashboard.php'; ?>
                 </div>
-                <div id="settings" style="display: none;">
-                    <?php include 'pengaturan.php'; ?>
+                <div id="dataanakContent" class="content" style="display: none;">
+                    <?php include 'datamaster/dataanak.php'; ?>
+                </div>
+                <div id="settingsContent" class="content" style="display: none;">
+                    <?php include 'form/pengaturan.php'; ?>
                 </div>
 
             </div>

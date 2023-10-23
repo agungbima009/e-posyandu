@@ -28,16 +28,12 @@ toggle2.onclick = function () {
   submenu.classList.toggle2("active");
 };
 
-// aksi tombol pengaturan 
-function toggleSettings() {
-  var dashboard = document.getElementById('dashboard');
-  var settings = document.getElementById('settings');
-  
-  if (dashboard.style.display !== 'none') {
-      dashboard.style.display = 'none';
-      settings.style.display = 'block';
-  } else {
-      dashboard.style.display = 'block';
-      settings.style.display = 'none';
+// aksi tombol menu 
+function toggleContent(menuId) {
+  var contentDivs = document.querySelectorAll('.content');
+  for (var i = 0; i < contentDivs.length; i++) {
+      contentDivs[i].style.display = 'none';
   }
+  var selectedContent = document.getElementById(menuId);
+  selectedContent.style.display = 'block';
 }

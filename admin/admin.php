@@ -57,7 +57,7 @@
                             </a>
                         </li>
                         <li class="menuitem">
-                            <a class="item" href="#">
+                            <a class="item" href="#" onclick="toggleContent('dataibuContent')">
                                 <!-- <span class="icon"></span> -->
                                 <span class="text">Data Ibu</span>
                             </a>
@@ -75,43 +75,43 @@
                             </a>
                         </li>
                         <li class="menuitem">
-                            <a class="item" href="#">
+                            <a class="item" href="#" onclick="toggleContent('datahamilContent')">
                                 <!-- <span class="icon"></span> -->
                                 <span class="text">Data ibu hamil</span>
                             </a>
                         </li>
                         <li class="menuitem">
-                            <a class="item" href="#">
+                            <a class="item" href="#" onclick="toggleContent('datalahirContent')">
                                 <!-- <span class="icon"></span> -->
                                 <span class="text">Data ibu melahirkan</span>
                             </a>
                         </li>
                         <li class="menuitem">
-                            <a class="item" href="#">
+                            <a class="item" href="#" onclick="toggleContent('datavaksinContent')">
                                 <!-- <span class="icon"></span> -->
                                 <span class="text">Data vaksin</span>
                             </a>
                         </li>
                         <li class="menuitem">
-                            <a class="item" href="#">
+                            <a class="item" href="#" onclick="toggleContent('dataposContent')">
                                 <!-- <span class="icon"></span> -->
                                 <span class="text">Data pos posyandu</span>
                             </a>
                         </li>
                         <li class="menuitem">
-                            <a class="item" href="#">
+                            <a class="item" href="#" onclick="toggleContent('databidanContent')">
                                 <!-- <span class="icon"></span> -->
                                 <span class="text">Data bidan</span>
                             </a>
                         </li>
                         <li class="menuitem">
-                            <a class="item" href="#">
+                            <a class="item" href="#" onclick="toggleContent('datakaderContent')">
                                 <!-- <span class="icon"></span> -->
                                 <span class="text">Data kader</span>
                             </a>
                         </li>
                         <li class="menuitem">
-                            <a class="item" href="#">
+                            <a class="item" href="#" onclick="toggleContent('datauserContent')">
                                 <!-- <span class="icon"></span> -->
                                 <span class="text">Data user</span>
                             </a>
@@ -196,8 +196,33 @@
                 <div id="dashboardContent" class="content">
                     <?php include 'form/dashboard.php'; ?>
                 </div>
+                <!-- ==================data master============================= -->
                 <div id="dataanakContent" class="content" style="display: none;">
                     <?php include 'datamaster/dataanak.php'; ?>
+                </div>
+                <div id="dataibuContent" class="content" style="display: none;">
+                    <?php include 'datamaster/dataibu.php'; ?>
+                </div>
+                <div id="datahamilContent" class="content" style="display: none;">
+                    <?php include 'datamaster/dataibuhamil.php'; ?>
+                </div>
+                <div id="datalahirContent" class="content" style="display: none;">
+                    <?php include 'datamaster/dataibumelahirkan.php'; ?>
+                </div>
+                <div id="datavaksinContent" class="content" style="display: none;">
+                    <?php include 'datamaster/datavaksin.php'; ?>
+                </div>
+                <div id="dataposContent" class="content" style="display: none;">
+                    <?php include 'datamaster/datapos.php'; ?>
+                </div>
+                <div id="databidanContent" class="content" style="display: none;">
+                    <?php include 'datamaster/databidan.php'; ?>
+                </div>
+                <div id="datakaderContent" class="content" style="display: none;">
+                    <?php include 'datamaster/datakader.php'; ?>
+                </div>
+                <div id="datauserContent" class="content" style="display: none;">
+                    <?php include 'datamaster/datauser.php'; ?>
                 </div>
                 <div id="settingsContent" class="content" style="display: none;">
                     <?php include 'form/pengaturan.php'; ?>

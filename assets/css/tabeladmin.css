@@ -296,3 +296,105 @@ padding-bottom: 5px;
 .button-bg-1:hover{
   background-color: #00461aba;
 }
+
+/*================= box cari ===============*/
+.wrapper-box-cari{
+  width: 200px;
+  /* margin: px auto 0; */
+}
+.select-btn-cari, li{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.select-btn-cari{
+  height: 40px;
+  padding: 0 20px;
+  font-size: 15px;
+  background: #fff;
+  border-radius: 7px;
+  justify-content: space-between;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.select-btn-cari i{
+  font-size: 14px;
+  transition: transform 0.3s linear;
+}
+.wrapper-box-cari.active .select-btn-cari i{
+  transform: rotate(-180deg);
+}
+.content-box-cari{
+  display: none;
+  padding: 20px;
+  margin-top: 15px;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  position: absolute;
+  top: 20px;
+  bottom: 200px;
+}
+.wrapper-box-cari.active .content-box-cari{
+  display: block;
+}
+.content-box-cari .search{
+  position: relative;
+}
+.search i{
+  top: 50%;
+  left: 15px;
+  color: #999;
+  font-size: 15px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.search input{
+  height: 30px;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 0 20px 0 43px;
+  border: 1px solid #B3B3B3;
+}
+.search input:focus{
+  padding-left: 42px;
+  border: 2px solid #4285f4;
+}
+.search input::placeholder{
+  color: #bfbfbf;
+}
+.content-box-cari .options{
+  margin-top: 10px;
+  max-height: 150px;
+  overflow-y: auto;
+  padding-right: 7px;
+}
+.options-cari::-webkit-scrollbar{
+  width: 7px;
+}
+.options-cari::-webkit-scrollbar-track{
+  background: #f1f1f1;
+  border-radius: 25px;
+}
+.options-cari::-webkit-scrollbar-thumb{
+  background: #ccc;
+  border-radius: 25px;
+}
+.options-cari::-webkit-scrollbar-thumb:hover{
+  background: #b3b3b3;
+}
+.options-cari li{
+  height: 20px;
+  padding: 0 5px;
+  font-size: 10px;
+}
+
+/* .options-cari ul{
+  height: 50px;
+} */
+.options-cari li:hover, li.selected{
+  border-radius: 5px;
+  background: #f2f2f2;
+}

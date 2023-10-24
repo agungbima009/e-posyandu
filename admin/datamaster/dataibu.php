@@ -6,7 +6,7 @@
     <div class="tablesubmain">
         <h3>Data Ibu</h3>
         <div class="btn-container">
-            <button class="button-bg" type="button" id="openPopup">
+            <button class="button-bg" type="button" id="openPopupibu">
                 <img src="/assets/imgs/plus.png" alt="">
                 <h6 class="btnplus" style="font-size: 9px;">Tambah data</h6>
             </button>
@@ -79,11 +79,11 @@
 </div>
 
 
-<div class="popup" id="popup">
+<div class="popup" id="popupibu">
     <div class="popup-content">
-        <span class="close" id="closePopup">&times;</span>
+        <span class="close" id="closePopupibu">&times;</span>
         <!-- Isi form tambah data -->
-        <?php include 'inputan/tambahanak.php'; ?>
+        <?php include 'inputan/tambahibu.php'; ?>
     </div>
 </div>
 

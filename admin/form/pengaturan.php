@@ -15,7 +15,7 @@
                             <h4 class="text-p">Foto profil</h4>
                             </div>
                             <div class="bg-profil">
-                            <div class="profil">
+                            <div class="profil" type="file">
                                 <img src="/assets/imgs/customer01.jpg" alt="">
                             </div>
                             <h4 class="nameprofil">Username is blablabla</h4>
@@ -23,34 +23,34 @@
                             </div>
                         </div>
                     <div class="box-pengaturan">
-                        <div>
-                        <h4 class="text-p">Username</h4>
-                        <p class="i-p">Anda bisa mengganti username disini</p>
+                        <div class="ps-4 pt-2">
+                        <h4 class="fs-5">Username</h4>
+                        <p class="">Anda bisa mengganti username disini</p>
                         </div>
                         <div class="input-bg">
                             <input class="input-ds" type="text" name="username" placeholder="username..." />
                         </div>
                     </div>
                     <div class="box-pengaturan">
-                        <div>
-                        <h4 class="text-p">Email</h4>
-                        <p class="i-p">Anda bisa mengganti username disini</p>
+                        <div class="ps-4 pt-2">
+                        <h4 class="fs-5">Email</h4>
+                        <p class="">gunakan email yang berbeda untuk menggantinya</p>
                         </div>
                         <div class="input-bg">
                             <input class="input-ds" type="text" name="Email" placeholder="...@gmail.com" />
                         </div>
                     </div>
                     <div class="box-pengaturan">
-                        <div>
-                        <h4 class="text-p">Password</h4>
-                        <p class="i-p">Anda bisa mengganti username disini</p>
+                        <div class="ps-4 pt-2">
+                        <h4 class="fs-5">Password</h4>
+                        <p class="">masukan password minimal 8 digit , gunakan password yang kuat</p>
                         </div>
                         <div class="input-bg">
                             <input class="input-ds" type="password" name="password" placeholder="Passowrd..." />
                         </div>
                     </div>
-                    <div class="box-pengaturan p-kanan" style="background-color: #fff;">
-                        <button class="button-bg" type="button">Simpan</button>
+                    <div class="p-kanan mx-5">
+                    <button type="submit" class="btn btn-primary mt-3 mb-4" style="float: right;">Simpan</button>
                     </div>
                     
                     </div>

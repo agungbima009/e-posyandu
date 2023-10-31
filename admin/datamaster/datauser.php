@@ -1,87 +1,94 @@
-<link rel="stylesheet" href="/assets/css/tabeladmin.css">
-<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-
 <div class="framesubmain">
 
     <div class="tablesubmain">
-        <h3>Data User</h3>
-        <div class="btn-container">
-            <button class="button-bg" type="button" id="openPopup">
-                <img src="/assets/imgs/plus.png" alt="">
-                <h6 class="btnplus" style="font-size: 9px;">Tambah data</h6>
-            </button>
-            <div class="kanan">
-                <div class="search">
-                    <label>
-                        <input style="color: #C2C4C6;" type="text" placeholder="Pencarian...">
-                        <ion-icon name="search-outline"></ion-icon>
-                    </label>
+        <div class="container-xl">
+            <div class="table-responsive">
+                <div class="table-wrapper">
+                    <div class="table-title">
+                    <h2>Data <b>User</b></h2>
+                        <div class="row">
+                            <div class="col-sm-8 mt-3">
+                               
+                                <button type="button" class="btn btn-primary text-white " style="border-radius: 15px;" id="openPopupuser">
+                                    <i class="bi bi-plus-circle-fill" aria-hidden="true"></i>
+                                   <b>  Tambah</b>
+                                </button>
+                            </div>
+                            <div class="col-sm-4 mt3">
+                                
+                                <div class="search-box" style="margin-left: 200px;">
+                                    <i class="material-icons">&#xE8B6;</i>
+                                    <input type="text" class="form-control" placeholder="Search&hellip;">
+                                </div>
+                                <!-- <button type="button" class="btn btn-primary text-white h-75" style="border-radius: 15px;" id="openPopupfilteribu">
+                                    <i class="bi bi-funnel-fill" aria-hidden="true"></i>
+                                     Filter
+                                </button> -->
+                                <!-- <button type="button" class="btn btn-danger text-white h-75" style="border-radius: 15px;">
+                                    <i class="bi bi-filetype-pdf" aria-hidden="true"></i>
+                                </button>
+                                <button type="button" class="btn btn btn-success text-white h-75" style="border-radius: 15px;">
+                                    <i class="bi bi-file-earmark-excel" aria-hidden="true"></i>
+                                </button> -->
+                            </div>
+                        </div>
+                    </div>
+                    <table id="printdataanak" class="table table-striped table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Email <i class="fa fa-sort"></i></th>
+                                <th>Username</th>
+                                <th>Password<i class="fa fa-sort"></i></th>
+                                <th>Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                            for ($i = 1; $i <= 10; $i++) {
+                                echo '<tr>';
+                                echo "<td>$i</td>";
+                                echo '<td>Thomas Hardy</td>';
+                                echo '<td>Thomas Hardy</td>';
+                                echo '<td>Thomas Hardy</td>';
+                                echo '<td>
+       
+        <a href="#" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+        <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+    </td>';
+                                echo '</tr>';
+                            }
+                            ?>
+                        </tbody>
+                    </table>
+                    <div class="clearfix">
+                        <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
+                        <ul class="pagination">
+                            <li class="page-item disabled"><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+                            <li class="page-item"><a href="#" class="page-link">1</a></li>
+                            <li class="page-item"><a href="#" class="page-link">2</a></li>
+                            <li class="page-item"><a href="#" class="page-link">3</a></li>
+                            <li class="page-item"><a href="#" class="page-link">4</a></li>
+                            <li class="page-item"><a href="#" class="page-link">5</a></li>
+                            <li class="page-item"><a href="#" class="page-link"><i class="fa fa-angle-double-right"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
-
-                <!-- <button class="button-bg-1" type="button">
-                    <ion-icon name="search-outline"></ion-icon>
-                    <h6>Filter tanggal</h6>
-                </button> -->
             </div>
         </div>
-        <div class="tb-container">
-            <table>
-                <!-- judul kolom -->
-                <tr class="sticky-header">
-                    <th>No</th>
-                    <th>Nama</th>
-                    <th>Email</th>
-                    <th>Password</th>
-                    <th>Aksi</th>
-                </tr>
-                <!-- isi kolom -->
-                <?php
-                for ($i = 1; $i <= 100; $i++) {
-                    echo '<tr>';
-                    for ($j = 1; $j <= 5; $j++) {
-                        if ($j === 5) {
-                            echo '<td>
-                                <span class="btn-action">
-                                    <a href="#" class="efk-edit">
-                                    <div class="lg-action-edit">
-                <img src="/assets/imgs/edit.png" alt="edit">
-                </div>
-                                    </a>
-                                    <a href="#" class="efk-hapus">
-                                    <div class="lg-action-hapus">
-                                    <img src="/assets/imgs/hapus.png" alt="hapus">
-                                    </div>
-                                    </a>
-                                </span>
-                            </td>';
-                        } else {
-                            echo "<td>$i</td>";
-                        }
-                    }
-                    echo '</tr>';
-                }
-
-                ?>
-
-            </table>
-        </div>
-        <!-- <div class=" p-kanan-1">
-            <button class="button-bg-green" type="button">Cetak</button>
-        </div> -->
-
-
-
     </div>
-
 </div>
 
-
-<div class="popup" id="popup">
+<div class="popup" id="popupuser">
     <div class="popup-content">
-        <span class="close" id="closePopup">&times;</span>
+        <span class="close" id="closePopupuser" style="float: right;">&times;</span>
         <!-- Isi form tambah data -->
-        <?php include 'inputan/tambahanak.php'; ?>
+        <?php include 'inputan/tambahuser.php'; ?>
     </div>
 </div>
 
-<script src="/assets/js/main.js"></script>
+
+
+<!-- icon view -->
+<!-- <a href="#" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a> -->
+

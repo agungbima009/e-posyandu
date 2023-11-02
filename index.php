@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <!-- <link href="/assets/imgs/" rel="icon">
+  <!-- <link href="assets/imgs/" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
@@ -19,14 +19,14 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="/assets/css/landingpage.css" rel="stylesheet">
+  <link href="assets/css/landingpage.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
     <!-- icon sidebar -->
@@ -178,7 +178,7 @@
       <div class="row">
         <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box" style="border-radius:20px;">
-            <div class="icon"><img src="/assets/imgs/gizi/fruit (7).png" style="width: 50px;"></div>
+            <div class="icon"><img src="assets/imgs/gizi/fruit (7).png" style="width: 50px;"></div>
             <h4><a href="">1. Karbohidrat</a></h4>
             <p>Karbohidrat merupakan sumber energi yang sangat penting bagi tubuh. Anak-anak sangat membutuhkan
               karbohidrat untuk memaksimalkan fungsi otak.
@@ -189,7 +189,7 @@
 
         <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box" style="border-radius:20px;">
-            <div class="icon"><img src="/assets/imgs/gizi/fruit (8).png" style="width: 50px;"></div>
+            <div class="icon"><img src="assets/imgs/gizi/fruit (8).png" style="width: 50px;"></div>
             <h4><a href="">2. Protein</a></h4>
             <p>Protein sangat dibutuhkan tubuh untuk menghasilkan energi setiap harinya. Tidak hanya itu saja, asupan
               protein yang cukup juga mendukung regenerasi sel-sel tubuh dan memaksimalkan pertumbuhan otot.
@@ -200,7 +200,7 @@
 
         <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
           <div class="icon-box" style="border-radius:20px;">
-            <div class="icon"><img src="/assets/imgs/gizi/fruit (6).png" style="width: 50px"></div>
+            <div class="icon"><img src="assets/imgs/gizi/fruit (6).png" style="width: 50px"></div>
             <h4><a href="">3. Lemak</a></h4>
             <p>Ternyata lemak juga sangat baik untuk memenuhi kebutuhan gizi pada anak lho, Moms. Dengan mengonsumsi
               lemak dalam jumlah yang seimbang mampu membantu melarutkan vitamin A, D, E, K dan melindungi fungsi
@@ -212,7 +212,7 @@
         <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100"
           style="padding-top: 15px;">
           <div class="icon-box" style="border-radius:20px;">
-            <div class="icon"><img src="/assets/imgs/gizi/fruit (3).png" style="width: 50px;"></div>
+            <div class="icon"><img src="assets/imgs/gizi/fruit (3).png" style="width: 50px;"></div>
             <h4><a href="">6. Asam folat</a></h4>
             <p>Asam folat sangat dibutuhkan anak untuk memaksimalkan tumbuh kembang sang anak. Zat ini dibutuhkan anak
               mulai dari bayi hingga balita.
@@ -223,7 +223,7 @@
         <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100"
           style="padding-top: 15px;">
           <div class="icon-box" style="border-radius:20px;">
-            <div class="icon"><img src="/assets/imgs/gizi/fruit (1).png" style="width: 50px;"></div>
+            <div class="icon"><img src="assets/imgs/gizi/fruit (1).png" style="width: 50px;"></div>
             <h4><a href="">5. Berbagai jenis vitamin</a></h4>
             <p>Moms harus ketahui bahwa anak-anak sangat membutuhkan berbagai vitamin mulai dari vitamin A, B, C, D, E,
               K.
@@ -235,7 +235,7 @@
         <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100"
           style="padding-top: 15px;">
           <div class="icon-box" style="border-radius:20px;">
-            <div class="icon"><img src="/assets/imgs/gizi/fruit (2).png" style="width: 50px;"></div>
+            <div class="icon"><img src="assets/imgs/gizi/fruit (2).png" style="width: 50px;"></div>
             <h4><a href="">4. Kalsium</a></h4>
             <p>Kalsium sangat penting bagi pertumbuhan anak-anak. Kombinasi vitamin D dan kalsium dapat mendukung
               pertumbuhan tinggi badan serta pertumbuhan tulang dan gigi anak secara seimbang.
@@ -246,7 +246,7 @@
         <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100"
           style="padding-top: 15px;">
           <div class="icon-box" style="border-radius:20px;">
-            <div class="icon"><img src="/assets/imgs/gizi/fruit (4).png" style="width: 50px;"></div>
+            <div class="icon"><img src="assets/imgs/gizi/fruit (4).png" style="width: 50px;"></div>
             <h4><a href="">7. Omega 3</a></h4>
             <p> Anak-anak memerlukan omega 3 untuk memaksimalkan fungsi otak dan daya ingat yang kuat. Omega 3 terdapat
               pada telur, minyak zaitun, dan alpukat.</p>
@@ -256,7 +256,7 @@
         <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100"
           style="padding-top: 15px;">
           <div class="icon-box" style="border-radius:20px;">
-            <div class="icon"><img src="/assets/imgs/gizi/fruit (5).png" style="width: 50px;"></div>
+            <div class="icon"><img src="assets/imgs/gizi/fruit (5).png" style="width: 50px;"></div>
             <h4><a href="">8. Zat besi</a></h4>
             <p> Zat ini berfungsi agar anak tidak mudah lelah. Moms bisa memberikan asupan zat ini dari bayam, ikan,
               daging merah, dan kacang-kacangan.</p>
@@ -287,7 +287,7 @@
 
         <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
           <div class="member d-flex align-items-start"style="border-radius:20px;">
-            <div class="pic"><img src="/assets/imgs/ibu/image 14.png" alt="" style="width: 50px";></div>
+            <div class="pic"><img src="assets/imgs/ibu/image 14.png" alt="" style="width: 50px";></div>
             <div class="member-info">
               <h4>1. Pemeriksaan rutin dan tes laboratorium</h4>
               <span></span>
@@ -301,7 +301,7 @@
 
         <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="member d-flex align-items-start" style="border-radius:20px;">
-            <div class="pic"><img src="/assets/imgs/ibu/image 11.png" class="img-fluid" alt="" style="width: 70px";></div>
+            <div class="pic"><img src="assets/imgs/ibu/image 11.png" class="img-fluid" alt="" style="width: 70px";></div>
             <div class="member-info">
               <h4>2. Sumplemen dan nutrisi</h4>
               <span></span>
@@ -315,7 +315,7 @@
 
         <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
           <div class="member d-flex align-items-start" style="border-radius:20px;">
-            <div class="pic"><img src="/assets/imgs/ibu/image 21.png" class="img-fluid" alt="" style="width: 70px";></div>
+            <div class="pic"><img src="assets/imgs/ibu/image 21.png" class="img-fluid" alt="" style="width: 70px";></div>
             <div class="member-info">
               <h4>4. Dukungan emosional dan prikologi</h4>
               <span></span>
@@ -328,7 +328,7 @@
 
         <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
           <div class="member d-flex align-items-start" style="border-radius:20px;">
-            <div class="pic"><img src="/assets/imgs/ibu/image 12.png" class="img-fluid" alt="" style="width: 70px";></div>
+            <div class="pic"><img src="assets/imgs/ibu/image 12.png" class="img-fluid" alt="" style="width: 70px";></div>
             <div class="member-info">
               <h4>3. Konseling dan edukasi</h4>
               <span></span>
@@ -342,7 +342,7 @@
 
         <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
           <div class="member d-flex align-items-start" style="border-radius:20px;">
-            <div class="pic"><img src="/assets/imgs/ibu/image 13.png" class="img-fluid" alt="" style="width: 70px";></div>
+            <div class="pic"><img src="assets/imgs/ibu/image 13.png" class="img-fluid" alt="" style="width: 70px";></div>
             <div class="member-info">
               <h4>5. Makanan yang bergizi</h4>
               <span></span>
@@ -357,7 +357,7 @@
 
         <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
           <div class="member d-flex align-items-start" style="border-radius:20px;">
-            <div class="pic"><img src="/assets/imgs/ibu/image 17.png" class="img-fluid" alt="" style="width: 70px";></div>
+            <div class="pic"><img src="assets/imgs/ibu/image 17.png" class="img-fluid" alt="" style="width: 70px";></div>
             <div class="member-info">
               <h4>6. Olahraga rutin untuk membantu jalanannya proses melahirkan</h4>
               <span></span>
@@ -370,7 +370,7 @@
 
         <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
           <div class="member d-flex align-items-start" style="border-radius:20px;">
-            <div class="pic"><img src="/assets/imgs/ibu/image 18.png" class="img-fluid" alt="" style="width: 70px";></div>
+            <div class="pic"><img src="assets/imgs/ibu/image 18.png" class="img-fluid" alt="" style="width: 70px";></div>
             <div class="member-info">
               <h4>7. Tidur cukup & hindari stress berlebih</h4>
               <span></span>
@@ -402,7 +402,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="/assets/imgs/image 16.png" class="img-fluid animated" alt="">
+          <img src="assets/imgs/image 16.png" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -498,17 +498,17 @@
   </div>
 
    <!-- Vendor JS Files -->
-   <script src="/assets/vendor/aos/aos.js"></script>
-  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="/assets/vendor/php-email-form/validate.js"></script>
+   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
   <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
 
 <!-- Template Main JS File -->
-<script src="/assets/js/landingpage.js"></script>
+<script src="assets/js/landingpage.js"></script>
 </body>
 
 </html>

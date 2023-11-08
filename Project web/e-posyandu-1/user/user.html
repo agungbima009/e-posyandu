@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Posyandu/user</title>
+    <link rel="stylesheet" href="../assets/./css/./StyleUser.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="title">
+                <div class="title1"><h2>E-Posyandu</h2></div>
+                <sub class="title2"><h5>Elektronik Pos Pelayanan Terpadu</h5></sub>
+            </div>
+            <div class="profile">
+                <div class="profile-img"></div>
+                <div class="nama">Agung Bima</div>
+                <div class="email">blablabla@gmail.com</div>
+            </div>
+            <div class="galery">
+                <div class="foto"></div>
+            </div>
+         </div>
+
+<!-- topbar -->
+    <div class="container2"> 
+        <div class="topbar">
+            <div class="bidan">
+                <div class="name">Pacar Cina Besar</div>
+                <div class="profile"></div>
+            </div>
+        </div>
+
+<!-- Box-Chat -->
+        <div class="box">
+            <div class="pilih"><h4>Pilih Bidan</h4></div>
+            <div class="list">
+                <!-- <div class="bidan"> -->
+                    <div class="profile"></div>
+                    <div class="name"><h5>Bidan Ijat</h5>
+                        <div class="last-seen">Aktif</div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+
+        let toggle = document.querySelector(".toggle")
+        let text = document.querySelector(".anonim")
+        
+        function Animatedtoggle(){
+            toggle.classList.toggle("active");
+
+            if(toggle.classList.contains("active")){
+                text.innerHTML ="Mode Anonim"
+            }
+            else{
+                text.innerHTML ="Mode Normal"
+            }
+        }
+
+        let newpwicon = document.getElementById("newpwicon");
+        let password = document.getElementById("password");
+
+        newpwicon.onclick = function(){
+            if (password.type =="password"){
+                password.type = "text";
+                newpwicon.src="../assets/./imgs/./eye-open.png";
+            }else{
+                password.type ="password";
+                newpwicon.src="../assets/./imgs/./eye-close.png";
+            }
+        }
+
+        let confirmpwicon = document.getElementById("confirmpwicon");
+        let password1 = document.getElementById("password1");
+
+        confirmpwicon.onclick = function(){
+            if (password1.type =="password"){
+                password1.type = "text";
+                confirmpwicon.src="../assets/./imgs/./eye-open.png";
+            }else{
+                password1.type ="password";
+                confirmpwicon.src="../assets/./imgs/./eye-close.png";
+            }
+        }
+    </script>
+</body>
+
+</html>

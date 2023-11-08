@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu", sans-serif;
+}
+html{
+    background-color: white;
+}
+body{
+    display: flex;
+    justify-content: left;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #e0e0f762;
+    /* border: 1px solid red; */
+   
+}
+.navbar{
+  position: relative;
+  width: 400px;
+  min-width: 200px;
+  max-width: 300px;
+  height: 740px;
+  background: linear-gradient(#207BCF, #1cb5e0, #2a2185,#000046);
+  border-left: 10px solid var(--blue);
+  border-top-right-radius: 40px;
+  transition: 0.5s;
+  overflow: hidden;
+  /* border: 1px solid red; */
+  
+}
+.title{
+    /* border:1px solid red; */
+    margin-top: 2.5rem;
+}
+.title1{
+    display: flex;
+    justify-content: center;
+    color: #A6F6FF;
+    font-size: 1.3rem;
+}
+.title2{
+    display: flex;
+    justify-content: center;
+    color: #D2E0FB;
+}
+.profile{
+    /* border:1px solid red; */
+    height: 200px;
+    width: auto;
+    background-color:  rgba(175, 175, 230, 0.774);
+    position: relative;
+}
+.profile .profile-img{
+    background-image: url(/assets/imgs/customer02.jpg);
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    grid-area: profile;
+    justify-self: center;
+    border: 2px solid white;
+    position: relative;
+    top: 20px;
+
+}
+.nama{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+    margin-top: 3px;
+}
+
+.nama,.email{
+    position: relative;
+    top: 20px;
+}
+.profile,.galery,.galery .foto{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.galery{
+    border: 1px solid red;
+    width: auto;
+    height: 50%;
+    background-color: transparent;   
+}
+.galery .foto{
+    border: 1px solid red;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+
+}
+/* -----------topbar--------- */
+.container2{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.topbar,.topbar .bidan,.box,.box .list,.box .pilih{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.topbar{
+    /* border: 1px solid red; */
+    display: flex;
+    position: relative;
+    width: 97%;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* margin-right: 1px; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 0px 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 7px 25px rgba(155, 154, 158, 0.362);
+    /* border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; */
+}
+.topbar .bidan{
+    /* border: 1px solid red; */
+    background-color: #79a0f640;
+    display: flex;
+    /* justify-content: space-between; */
+    position: relative;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: 25%;
+    height: 70%;
+    min-width: 170px;
+    padding: 10px;   
+    box-shadow: 0px 7px 25px rgba(155, 154, 158, 0.362);
+}
+.topbar .bidan .profile{
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    top: -10px;
+    bottom: 10px;
+    left: auto;
+    right: -15px;
+    position: absolute;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    background-image: url(/assets/imgs/Czinlju.png);
+}
+.topbar .bidan .name{
+    font-size: 1rem;       
+}
+
+@media screen and (max-width: 400px){
+    .topbar .bidan .name {
+        font-size: 10px center;
+    }
+    
+}
+/* -----------Box-Chat--------- */
+.box{
+    /* border: 1px solid red; */
+    /* background-color: #1cb5e0; */
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    position: relative;
+    width: 97%;
+    height: 83%;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #afa9d294;
+    box-shadow: 0px 7px 25px rgba(155, 154, 158, 0.584);
+}
+.box .pilih{
+    /* border: 1px solid red; */
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 98%;
+    height: 30px;
+    font-size: 25px;
+    color: #2a2185;
+
+}
+
+.box .list{
+    /* border: 1px solid red; */
+    display: flex;
+    background-color: whitesmoke;
+    position: relative;
+    top: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+.box .profile{
+    width: 39px;
+    height: 39px;
+    margin-left: 5px;
+    margin-top: 6px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    background-image: url(/assets/imgs/customer01.jpg);
+}
+.box .name{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 5px;
+    font-size: 1.4rem;
+    color: #2a2185;
+}
+.box .name .last-seen{
+    font-size: 15px;
+    color: green;
+}
